@@ -51,53 +51,62 @@ body {
 }
 
 
-
-
-
-
-
 /* ======= MIDDLE ======= */
 .MIDDLE {
+  /* ====== BOX ====== */
   padding: 20px;
-  font-size: 1.5rem;
-  min-width: 25cm;
-  color: #32174D;
-  text-shadow: 0 0 10px rgba(170, 130, 255, 0.3);  
-  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #F8F4FF;
-  min-height: 20cm;
   max-width: 30cm;
   box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+  border-radius: 10px;
+
+  /* ====== FONT ====== */
+  font-size: 1.5rem;
+  
+  color: #32174D;
+  text-shadow: 0 0 10px rgba(170, 130, 255, 0.3);  
+  
   text-align: left;
 }
 
-h1 {
-  margin-top: 0;
-  margin-left: 0;
+.MIDDLE img {
+  max-width: 100%;   
+  height: auto;      
+  display: block;    
+  margin: 0 auto;    
+  object-fit: contain; 
 }
 
-.P_middle {
-  list-style-position: inside;
+.MIDDLE p {
   padding: 0;
   margin-top: 20px;
 }
 
-.itemize {
-  list-style-position: inside;
+.MIDDLE ul {
   margin-left: 20px;
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
 }
 
+.MIDDLE .imageSO {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 60px  solid #f5f5f5;
+  border-right: 140px  solid #f5f5f5;;
+  border-bottom: 60px  solid #f5f5f5;
+  border-left: 140px  solid #f5f5f5;;
+  width: 850px;
+}
 
-
-
-
-
-
-
-
+.MIDDLE a {
+  text-decoration: none;
+  color: #32174D;
+}
 
 
 
@@ -120,8 +129,9 @@ h1 {
 .loghi {
   width: 40px;
   height: 40px;
-  border-radius: 10px;
-  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 20px;
+  border: black;
+  box-sizing: 2px;
 }
 
 .loghi:hover {
@@ -129,8 +139,11 @@ h1 {
   box-shadow: 0 0 10px #ffffffaa;
 }
 
+
+
+
 /* ======= RESPONSIVE ======= */
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
   .TOP h1 {
     font-size: 2rem;
   }
@@ -141,4 +154,4 @@ h1 {
     width: 32px;
     height: 32px;
   }
-}
+}*/

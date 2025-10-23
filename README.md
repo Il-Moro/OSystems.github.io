@@ -1,6 +1,6 @@
 ## Mini Project for Internetwork course
 #### Content:
-├── css
+├── css 
 │   └── styles.css
 ├── index.html
 ├── Linux.html
